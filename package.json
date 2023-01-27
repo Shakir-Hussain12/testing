@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "strTest.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shakir-Hussain12/testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shakir-Hussain12/testing/issues"
+  },
+  "homepage": "https://github.com/Shakir-Hussain12/testing#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
