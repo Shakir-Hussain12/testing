@@ -1,6 +1,9 @@
 const stringLen = require('./stringLen');
 const stringRev = require('./stringRev');
 const stringCap = require('./stringCap');
+const Calculator = require('./Calculator');
+
+const methods = new Calculator(1,1);
 
 test('Check Length', ()=> {
     str = 'Shakir';
@@ -18,3 +21,21 @@ test('Capital', ()=> {
     str = 'shakir';
     expect(stringCap(str)).toBe('Shakir');
 })
+
+describe('Calculator Class tests', () => {
+    test('Add', () => {
+        expect(methods.add(1,1)).toBe(1 + 1);
+    })
+
+    test('Subtract', () => {
+        expect(methods.sub(1,1)).toBe(1 - 1);
+    })
+
+    test('Multiply', () => {
+        expect(methods.mul(1,1)).toBe(1 * 1);
+    })
+
+    test('Division', () => {
+        expect(methods.div(1,1)).toBe(1 / 1);
+    })
+});
